@@ -1,0 +1,26 @@
+.Home {
+  display: flex;
+  color: var(--white);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Home h1 {
+  font-size: 9em;
+  margin: 0;
+}
+
+.Home h2 {
+  font-size: 3em;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.Home_btn {
+  font-weight: bold;
+  background-color: var(--white);
+  color: var(--blue-primary);
+  margin-top: 2em;
+}
