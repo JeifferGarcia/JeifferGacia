@@ -6,7 +6,7 @@ class Home extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className='Home'>
+        <div className='Home container'>
           <h1>
             Hola, soy <br /> Jeiffer Garcia
           </h1>

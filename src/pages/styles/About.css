@@ -1,0 +1,43 @@
+.About {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  font-size: 24px;
+}
+.About__title {
+  grid-column: 1 / 3;
+}
+
+.About__btn {
+  grid-column: 2 / 3;
+}
+
+.About__images--img {
+  width: 290px;
+  height: 290px;
+  border: solid 10px#4b8ae4;
+  background-image: url("../../images/jeiffergarcia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.About__btn {
+  margin-top: 5em;
+}
+
+.About__btn a {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.About__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.About__images--description {
+  font-size: 19px;
+}
