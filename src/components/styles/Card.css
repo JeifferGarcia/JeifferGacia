@@ -1,0 +1,25 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 324px;
+  height: 407px;
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--blue);
+  text-align: center;
+  justify-self: center;
+  overflow: hidden;
+}
+
+.Card img {
+  width: 100%;
+}
+.Card a {
+  display: inline-block;
+  background-color: var(--blue-primary);
+  font-weight: bold;
+  color: var(--white);
+  width: 6em;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.Assets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 70px);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.Assets__Lines {
+  grid-area: 1/1;
+  margin-left: 2em;
+}
+
+.Assets__Circle {
+  grid-area: 1/1;
+  justify-self: center;
+}
+
+.Assets__Plus {
+  grid-area: 1/4;
+  justify-self: center;
+}
+
+.Assets__Plus-red {
+  grid-area: 1/4;
+  justify-self: end;
+}
+
+.Assets__Point {
+  grid-area: 2/4;
+  justify-self: end;
+}

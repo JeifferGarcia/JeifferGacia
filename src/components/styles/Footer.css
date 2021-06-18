@@ -1,0 +1,28 @@
+.Footer {
+  display: grid;
+  grid-template-rows: 50px 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+
+.Footer__Navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Footer__Navbar li {
+  list-style: none;
+}
+
+.Footer__Navbar li a img {
+  width: 30px;
+}
+
+.Footer__copy p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue-primary);
+}

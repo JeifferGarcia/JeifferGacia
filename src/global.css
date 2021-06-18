@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 :root {
-  --blue-primary: #091d36;
+  --blue-primary: #58c9ad;
   --blue-light: #c2d2e9;
   --blue-secondary: #5e83ba;
   --blue: #3a4e7a;
@@ -16,22 +16,23 @@ body {
   overflow: hidden;
   color: var(--white);
   background-color: var(--blue-primary);
-  background-image: url("./images/bg.svg");
+  background-image: url("./images/Cover.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .container {
-  max-width: 1440px;
-  padding-left: 100px;
-  padding-right: 100px;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .btn {
-  width: 200px;
+  width: auto;
+  font-size: 18px;
   text-decoration: none;
-  padding: 0.5em;
+  padding: 0.6em;
   border-radius: 5px;
 }
 .btn:hover {
@@ -41,4 +42,8 @@ body {
 .btn:active {
   transform: scale(0.95);
   transition: 100ms;
+}
+h2 {
+  color: var(--blue-primary);
+  font-size: 50px;
 }

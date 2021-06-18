@@ -13,11 +13,7 @@ class Navbar extends React.Component {
             </li>
 
             <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
-
-            <li>
-              <Link to='/portafolio'>Portafolio</Link>
+              <Link to='/portfolio'>Portafolio</Link>
             </li>
 
             <li>

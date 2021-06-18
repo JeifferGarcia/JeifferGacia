@@ -3,3 +3,13 @@
   margin-left: 1.5em;
   flex-wrap: wrap;
 }
+
+.Header .Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header .Logo img {
+  width: 100px;
+}

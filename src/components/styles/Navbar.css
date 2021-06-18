@@ -15,11 +15,15 @@
 .Navbar a {
   text-decoration: none;
   width: 100%;
-  font-weight: bold;
   padding: 1em;
   color: var(--white);
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.Navbar .active {
+  color: var(--blue-primary);
+  font-weight: bold;
 }
